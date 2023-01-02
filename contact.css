@@ -1,0 +1,150 @@
+body {
+    background-color: rgb(12, 17, 29);
+}
+
+img {
+    float: right;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.insta {
+    margin-right: 0px;
+    margin-top: 40px;
+    width: 80px;
+    height: 80px;
+}
+
+.youtube {
+    margin-right: 0px;
+    margin-top: 20px;
+    width: 120px;
+    height: 120px;
+}
+
+.git {
+    margin-right: -5px;
+    margin-top: 30px;
+    width: 100px;
+    height: 100px;
+}
+
+header span {
+    position: absolute;
+    top: 2.5%; 
+    left: 50%;
+    transform: translate(-50%, -50%); 
+    text-align: center; 
+    color: rgb(235, 181, 154);
+    font-family: 'Courgette', cursive;
+    font-size: 25px;
+}
+
+
+ul {
+    list-style-type: none;
+    top: 35px;
+    padding: 3.4px;
+    width: 100px; 
+    background-color: rgb(12, 17, 29);
+    position: fixed; 
+    height: 6%; 
+    overflow: auto; 
+}
+
+ul li a {
+    list-style-type: none;
+    display: block;
+    color: rgb(215, 215, 215);
+    padding: 8px 16px;
+    text-decoration: none;
+}
+  
+ul li a:hover {
+    background-color: rgb(179, 171, 234);
+}
+
+span {
+    position: absolute;
+    top: 30%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    font-size: 90px;
+    font-family: 'Playfair Display SC', serif;
+    color: rgb(179, 171, 234);
+}
+
+#name {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -100px;
+    height: 50px;
+    width: 160px;
+    border-color: rgb(179, 171, 234);
+    border: 30%;
+    border-radius: 0%;
+    background-color: rgb(12, 17, 29);
+    color: rgb(215, 215, 215);
+    
+}
+#email {
+    position: absolute;
+    margin-left: 1500px;
+    margin-top: -100px;
+    height: 50px;
+    width: 160px;
+    border-color: rgb(179, 171, 234);
+    border: 30%;
+    border-radius: 0%;
+    background-color: rgb(12, 17, 29);
+    color: rgb(215, 215, 215);
+}
+#message {
+    position: absolute;
+    margin-left: 1300px;
+    margin-top: -30px;
+    height: 150px;
+    width: 362px;
+    border-color: rgb(179, 171, 234);
+    border: 30%;
+    border-radius: 0%;
+    background-color: rgb(12, 17, 29);
+    color: rgb(215, 215, 215);
+}
+
+#button {
+    position: absolute;
+    margin-left: 1620px;
+    margin-top: 140px;
+    height: 20px;
+    width: 50px;
+    background-color: rgb(235, 181, 154);
+    color: rgb(12, 17, 29);
+}
+
+input::placeholder {
+    text-align: center;
+    color: rgb(235, 181, 154);  
+}
+
+textarea::placeholder {
+    text-align: center;
+    color: rgb(235, 181, 154);
+}
+
+a {
+    color: rgb(179, 171, 234);
+    text-decoration: underline;
+}
+#mail {
+    font-size: 20px;
+    color: white;
+    padding-top: 500px;
+    padding-left: 860px;
+}
+#influence {
+    padding-left: 860px;
+    font-size: 20px;
+    color: white;
+}

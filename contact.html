@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <title>My contact</title>
+  <link rel="stylesheet" type="text/css" href="contact.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
+  <script src="main.js"></script>
+
+</head>
+<header>
+  <span>Talon LeFevre</span>
+</header>
+<body>
+
+  <a href="https://www.linkedin.com/in/talon-lefevre-384104b3/"><img src="link.png" alt="My Image"/></a>
+  <a href="https://www.instagram.com/techwithtalon/"><img src="insta.png" alt="Instagram" class="insta"/></a>
+  <a href="https://www.youtube.com/channel/UCP7M1fzhrsXDmiQpnPFFPZA"><img src="youtube.png" alt="Youtube" class="youtube"/></a>
+  <a href="https://github.com/talonlefevre?tab=repositories"><img src="github.png" alt="Github" class="git"/></a>
+
+  <nav>
+    <ul>
+      <li><a href="#" onclick="goToHome()">HOME</a></li>
+      <li><a href="#" onclick="goToProjects()">PROJECTS</a></li>
+    </ul>
+  </nav>
+
+  <span>BETTER TOGETHER</span>
+
+  <p id="mail">If you want mail: <a href="talonlefevre@gmail.com">talonlefevre@gmail.com</a></p>
+  <p id="influence">If you want to be influenced: <a href="https://www.instagram.com/techwithtalon/">@techwithtalon</a></p>
+
+  <form action="send.php" method="post">
+    <input type="text" id="name" placeholder="Enter your name">
+    <input type="email" id="email" placeholder="Enter your email">
+    <textarea id="message" placeholder="Enter your message"></textarea>
+    <button type="submit" id="button">Send</button>
+  </form>
+  
+
+
+
+</body>
+</html>
