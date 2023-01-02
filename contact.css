@@ -48,7 +48,7 @@ ul {
     list-style-type: none;
     top: 35px;
     padding: 3.4px;
-    width: 100px; 
+    width: 103px; 
     background-color: rgb(12, 17, 29);
     position: fixed; 
     height: 6%; 
@@ -64,7 +64,8 @@ ul li a {
 }
   
 ul li a:hover {
-    background-color: rgb(179, 171, 234);
+    background-color: rgb(235, 181, 154);
+    color: rgb(12, 17, 29);
 }
 
 span {
