@@ -1,4 +1,6 @@
 body {
+    margin: 0;
+    padding: 0;
     background-color: rgb(12, 17, 29);
 }
 
@@ -75,18 +77,28 @@ span {
     color: rgb(179, 171, 234);
 }
 
-a {
-    color: rgb(179, 171, 234);
+#social-links {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    color: white;
+    font-size: 35px;
+  }
+  
+  
+  @media (max-width: 700px) {
+    #social-links {
+      display: block;
+      margin: 0 auto;
+    }
+  }
+  a {
+    color: rgb(179, 171, 234); 
     text-decoration: underline;
-}
-#mail {
-    font-size: 20px;
-    color: white;
-    padding-top: 500px;
-    padding-left: 860px;
-}
-#influence {
-    padding-left: 860px;
-    font-size: 20px;
-    color: white;
-}
+  }
+  
+  
+  
+  
