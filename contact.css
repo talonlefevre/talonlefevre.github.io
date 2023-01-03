@@ -1,3 +1,13 @@
+@media (max-width: 1440px) {
+    /* apply styles here */
+    .box {
+      width: 300%;
+    }
+    .text {
+      font-size: 18px;
+    }
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -51,7 +61,7 @@ ul {
     width: 103px; 
     background-color: rgb(12, 17, 29);
     position: fixed; 
-    height: 6%; 
+    height: 15%; 
     overflow: auto; 
 }
 
@@ -80,22 +90,15 @@ span {
 
 #social-links {
     position: absolute;
-    top: 50%;
+    top: 65%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
     color: white;
     font-size: 35px;
   }
-  
-  
-  @media (max-width: 700px) {
-    #social-links {
-      display: block;
-      margin: 0 auto;
-    }
-  }
-  a {
+
+a {
     color: rgb(179, 171, 234); 
     text-decoration: underline;
   }
