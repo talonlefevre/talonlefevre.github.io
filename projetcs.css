@@ -1,10 +1,10 @@
-@media (max-width: 600px) {
+@media (max-width: 1440px) {
   /* apply styles here */
   .box {
-    width: 100%;
+    width: 300%;
   }
   .text {
-    font-size: 16px;
+    font-size: 18px;
   }
 }
 
@@ -82,7 +82,7 @@ ul li a:hover {
 
 .center {
   position: absolute;
-  top: 20%;
+  top: 10%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: rgb(215, 215, 215);
@@ -97,7 +97,7 @@ ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   position: absolute;
-  top: 60%;
+  top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
