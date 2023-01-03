@@ -1,3 +1,12 @@
+@media (max-width: 1440px) {
+  /* apply styles here */
+  .box {
+    width: 300%;
+  }
+  .text {
+    font-size: 18px;
+  }
+}
 body {
   margin: 0;
   background-color: rgb(12, 17, 29);
@@ -6,6 +15,7 @@ header {
   display: none;
 }
 nav span {
+  text-align: center;
   background-color: rgb(215, 215, 215);
   margin-top: 35px;
   display: flex;
@@ -55,19 +65,18 @@ footer {
   width: 100%;
   background-color: rgb(215, 215, 215); 
 }
+
+footer p {
+  text-align: center;
+  margin-top: 25px;
+  margin-right: 180px;
+}
+
 footer img {
   height: 100px; 
   width: auto; 
-  margin: 20px; 
+  margin: 0px; 
   display: block; 
   float: left;
-}
-footer p {
-  font-size: 15px; 
-  color: rgb(12, 17, 29);  
-  line-height: 100px; 
-  align-items: center;
-  display: flex; 
-  justify-content: center;
 }
 
