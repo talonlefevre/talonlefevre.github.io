@@ -12,6 +12,7 @@ body {
   margin: 0;
   padding: 0;
   min-height: 300px;
+  overflow: scroll;
   background-color: rgb(12, 17, 29);
 }
 
@@ -90,6 +91,7 @@ ul li a:hover {
 }
 
 .box-container {
+  min-height: 300px;
   display: flex;
   justify-content: space-around;
   flex-wrap: wrap;
