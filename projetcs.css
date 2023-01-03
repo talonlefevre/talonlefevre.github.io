@@ -11,6 +11,7 @@
 body {
   margin: 0;
   padding: 0;
+  min-height: 300px;
   background-color: rgb(12, 17, 29);
 }
 
@@ -94,7 +95,7 @@ ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 60%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
