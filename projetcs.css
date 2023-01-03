@@ -82,7 +82,7 @@ ul li a:hover {
 
 .center {
   position: absolute;
-  top: 10%;
+  top: 20%;
   left: 50%;
   transform: translate(-50%, -50%);
   color: #fff;
@@ -99,7 +99,7 @@ ul li a:hover {
   flex-wrap: wrap;
   align-items: center;
   position: absolute;
-  top: 50%;
+  top: 68%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
