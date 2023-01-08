@@ -11,9 +11,11 @@ body {
   margin: 0;
   background-color: rgb(12, 17, 29);
 }
+
 header {
   display: none;
 }
+
 nav span {
   text-align: center;
   margin-top: 35px;
@@ -94,6 +96,48 @@ h2 {
   font-family: 'Arapey', serif;
   font-size: 30px;
 }
+
+.linkedin {
+  position: fixed;
+  top: 655px;
+  left: 40px;
+  width: 200px;
+  height: 200px;
+}
+
+.instagram {
+  position: fixed;
+  top: 655px;
+  left: 200px;
+  width: 200px;
+  height: 200px;  
+}
+
+.youtube {
+  position: fixed;
+  top: 605px;
+  left: 325px;
+  width: 300px;
+  height: 300px;
+}
+
+.git {
+  position: fixed;
+  top: 655px;
+  left: 550px;
+  width: 200px;
+  height: 200px;
+}
+
+
+
+
+
+
+
+
+
+
 
 footer {
   position: fixed;
