@@ -99,7 +99,7 @@ h2 {
 
 .linkedin {
   position: absolute;
-  top: 655px;
+  top: 700px;
   left: 40px;
   width: 200px;
   height: 200px;
@@ -107,7 +107,7 @@ h2 {
 
 .instagram {
   position: absolute;
-  top: 655px;
+  top: 700px;
   left: 200px;
   width: 200px;
   height: 200px;  
@@ -115,7 +115,7 @@ h2 {
 
 .youtube {
   position: absolute;
-  top: 605px;
+  top: 650px;
   left: 325px;
   width: 300px;
   height: 300px;
@@ -123,7 +123,7 @@ h2 {
 
 .git {
   position: absolute;
-  top: 655px;
+  top: 700px;
   left: 550px;
   width: 200px;
   height: 200px;
@@ -131,7 +131,7 @@ h2 {
 
 .square {
   position: absolute;
-  width: 100%;
+  width: 1000px;
   height: 500px;
   top: 1100px;
   left: 50%;
