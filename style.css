@@ -23,7 +23,7 @@ nav span {
   font-size: 35px;
   font-family: 'Parisienne', cursive;
   font-weight: bold;
-  color: rgb(235, 181, 154);
+  color: rgb(179, 171, 234);
 }
   
 ul {
@@ -60,6 +60,7 @@ ul li a:hover {
 }
 
 img {
+  position: relative;
   float: right;
   margin-top: 20px;
   height: 1000px;
@@ -67,25 +68,56 @@ img {
 
 }
 
+.heading {
+  position: fixed;
+  left: 100px;
+  top: 300px;
+  color: rgb(236, 106, 122);
+  font-family: 'Parisienne', cursive;
+  font-size: 20px;
+}
+
+.heading2 {
+  position: fixed;
+  left: 100px;
+  top: 360px;
+  color: rgb(179, 171, 234);
+  font-size: 30px;
+}
+
+h2 {
+  position: fixed;
+  left: 100px;
+  top: 455px;
+  color: rgb(236, 106, 122);
+  font-size: x-large;
+  font-family: 'Arapey', serif;
+  font-size: 30px;
+}
+
 footer {
-  position: absolute;
+  position: fixed;
   bottom: 0;
   width: 100%;
-  background-color: rgb(213, 128, 147); 
+  height: 100px;
+  background-color: rgb(12, 17, 29); 
 }
 
 footer p {
   text-align: center;
   margin-top: 35px;
-  margin-right: 180px;
-  color: rgb(12, 17, 29);
+  color: rgb(179, 171, 234);
 }
 
 footer img {
+  position: fixed;
+  bottom: 0;
+  left: 0;
   height: 100px; 
   width: auto; 
   margin: 0px; 
-  display: block; 
-  float: left;
 }
+
+
+
 
